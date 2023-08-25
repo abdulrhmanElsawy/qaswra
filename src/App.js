@@ -27,6 +27,17 @@ function App() {
 
 return (
     <div className="App">
+
+                            <Navbar />
+                            <Landing />
+                            <About />
+                            <Vision />
+                            <Services />
+                            <Benefits />
+                            <Contact />
+                            <Footer />
+
+
             <Routes>
 
                 
