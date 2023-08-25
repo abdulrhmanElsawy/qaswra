@@ -1,0 +1,330 @@
+.benefits-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.benefits-section .benefits-text{
+
+    direction: rtl;
+}
+
+
+.benefits-section .benefits-text h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #bf964a;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.benefits-section .benefits-text ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+
+.benefits-section .benefits-text ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 17px;
+    width: 80%;
+    line-height: 26px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+
+
+.benefits-section .benefits-text .sec-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+}
+
+.benefits-section .benefits-text .sec-header i{
+    font-size: 23px;
+    color: #bf964a;
+}
+
+
+.benefits-section .benefits-text .sec-header h2{
+    font-size: 16px;
+    margin: 0;
+    color: #bf964a;
+}
+
+.benefits-section .benefits-text h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 39px;
+    font-weight: 500;
+    color: #000;
+    width: 74%;
+    line-height: 55px;
+    font-weight: 900;
+    color: #113749;
+}
+
+.benefits-section .benefits-text .benefits{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 14px;
+    margin-top: 46px;
+    margin-bottom: 51px;
+}
+
+.benefits-section .benefits-text .benefits .benefit{
+    width: 33%;
+    padding: 9px;
+    background-color: #0000000d;
+    min-height: 342px;
+    border-radius: 18px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    justify-content: space-around;
+}
+
+.benefits-section .benefits-text .benefits .benefit i{
+    font-size: 61px;
+    color: #bf964a;
+}
+.benefits-section .benefits-text .benefits .benefit h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+}
+.benefits-section .benefits-text .benefits .benefit p{
+    
+    font-size: 14px;
+    color: #656565;
+
+}
+
+
+
+.benefits-section .benefits-text .customer-bar .text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+
+.benefits-section .benefits-text .customer-bar .text h2{
+    font-size: 23px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.benefits-section .benefits-text .customer-bar .text span{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.benefits-section .benefits-text .customer-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: #bdbdbd;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.benefits-section .benefits-text .customer-bar .bar .bar-value{
+    width: 98%;
+    height: 10px;
+    background-color: #bf964a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px
+}
+
+
+
+.benefits-section .benefits-text .contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29px;
+}
+
+.benefits-section .benefits-text .contact a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 213px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    background-color: #113749;
+    height: 55px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 19px;
+    margin-top: 21px;
+}
+
+
+.benefits-section .benefits-text .contact .call{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29px;
+}
+
+.benefits-section .benefits-text .contact .call i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #bf964a6b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #bf964a;
+    font-size: 29px;
+}
+
+
+.benefits-section .benefits-text .contact .call .text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.benefits-section .benefits-text .contact .call .text h5{
+    font-size: 17px;
+    font-weight: 500;
+    color: #7b7b7b;
+}
+
+.benefits-section .benefits-text .contact .call .text a{
+    font-size: 18px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+    width: fit-content;
+    height: 0;
+    direction: ltr;
+}
+
+.benefits-section .benefits-img{
+    position: relative;
+}
+
+.benefits-section .benefits-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 819px;
+    border-radius: 17px;
+}
+
+
+.benefits-section .benefits-img .text{
+    width: 258px;
+    height: 167px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    border-left: 5px solid #bf964a;
+    border-radius: 18px;
+}
+
+.benefits-section .benefits-img .text h1{
+    font-size: 51px;
+    color: #bf964a;
+    font-weight: 700;
+}
+
+
+.benefits-section .benefits-img .text h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+@media(max-width:950px){
+
+
+    .benefits-section .benefits-text .benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        margin-top: 46px;
+        margin-bottom: 51px;
+    }
+
+    .benefits-section .benefits-text .benefits .benefit {
+        width: 100%;
+        padding: 9px;
+        background-color: #0000000d;
+        min-height: 250px;
+    }
+
+    .benefits-section .benefits-text .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 29px;
+        margin-bottom: 50px;
+    }
+
+    .benefits-section .benefits-img img {
+        width: 100%;
+        object-fit: cover;
+        height: 470px;
+        border-radius: 17px;
+        margin-bottom: 7px;
+    }
+
+    .benefits-section .benefits-text h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 800;
+        color: #000;
+        line-height: 41px;
+        margin-left: 0;
+    }
+
+
+    .benefits-section .benefits-text ul li {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 17px;
+        width: 80%;
+        line-height: 26px;
+        font-weight: 600;
+        color: #4d4d4d;
+        width: 100%;
+    }
+
+
+    
+}

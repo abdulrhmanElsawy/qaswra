@@ -1,0 +1,136 @@
+
+
+.services .services-content .service{
+    width: 460px;
+    min-height: 516px;
+    position: relative;
+    margin: 20px;
+    margin-bottom: 105px;
+}
+
+.services{
+    margin-bottom: 57px;
+    margin-top: 100px;
+}
+
+
+.services .services-content .service>img{
+    width: 100%;
+    border-radius: 24px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.services .services-content .service .text{
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.43);
+    z-index: 12;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 83%;
+    padding: 21px;
+    border-radius: 26px;
+}
+
+
+.services .services-content .service .text .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.services .services-content .service .text .top .left{
+    width: 63px;
+    height: 63px;
+    background-color: #11374975;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 37px;
+    font-size: 33px;
+    margin-right: 15px;
+    color: #113749;
+}
+
+
+
+
+.services .services-content .service .text .top .right h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #113749;
+    text-align: right;
+}
+
+
+.services .services-content .service .text>p{
+    font-size: 17px;
+    margin-top: 31px;
+    font-weight: 400;
+    color: #2f2f2f;
+    text-align: right;
+}
+
+
+
+.services .services-content .service .text>a{
+    font-size: 16px;
+    margin-top: 23px;
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+
+.services .services-content .service .text>a i{
+    font-size: 24px;
+    color: #bf964a;
+}
+
+
+.services .swiper-slide{
+    width: fit-content;
+}
+
+.swiper-pagination-bullet{
+    background-color: #bf964a !important;
+}
+
+
+@media(max-width:950px){
+    .services .services-content .service {
+        width: 100%;
+        min-height: 521px;
+        position: relative;
+        margin: 0px;
+        margin-bottom: 108px;
+    }
+
+    
+    .services .swiper-slide {
+        width: 100%;
+    }
+
+    .services .services-content .service .text .top .left {
+        width: 96px;
+        height: 63px;
+        background-color: #11374975;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 37px;
+        font-size: 33px;
+        margin-right: 15px;
+        color: #113749;
+    }
+}

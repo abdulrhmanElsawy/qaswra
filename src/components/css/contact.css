@@ -1,0 +1,228 @@
+
+.contact .contact-content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.contact .contact-content .map{
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.contact .contact-content .map iframe{
+    border-radius: 37px;
+}
+
+.contact .contact-content .map .contact-info{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: -79px;
+    z-index: 115;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.33);
+}
+
+.contact .contact-content .map .contact-info .info{
+    width: 33%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.contact .contact-content .map .contact-info .info i{
+    font-size: 38px;
+    color: #113749;
+}
+
+
+.contact .contact-content .map .contact-info .info h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #a3a3a3;
+}
+
+
+
+.contact .contact-form{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.contact .contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1137494a;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact .contact-form form .inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact .contact-form form .inputs .input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px;
+    text-align: right;
+    position: relative;
+}
+
+
+.contact .contact-form form .inputs .input label{
+    font-size: 17px;
+    font-weight: 600;
+    color: #636363;
+}
+
+
+
+.contact .contact-form form .inputs .input i{
+    position: absolute;
+    right: 10px;
+    top: 59%;
+    color: #777;
+    font-size: 24px;
+}
+
+.contact .contact-form form .inputs .input input{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    text-align: right;
+    border-radius: 27px;
+    height: 42px;
+    padding-right: 42px;
+    margin-top: 11px !important;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.33);
+}
+
+
+
+
+.contact .contact-form form .inputs .input textarea{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    text-align: right;
+    border-radius: 27px;
+    height: 150px;
+    padding-right: 42px;
+    margin-top: 11px !important;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.33);
+}
+
+
+.contact .contact-form form .privacy{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 21px;
+}
+
+
+.contact .contact-form form .privacy input{
+    width: 18px;
+
+}
+
+
+.contact .contact-form form .privacy label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact .contact-form form button{
+    margin-top: 22px;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #113749;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+@media(max-width:950px){
+    
+    .contact .contact-content .map .contact-info {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 200px;
+        background-color: #fff;
+        border-radius: 15px;
+        margin-top: -79px;
+        z-index: 115;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.33);
+    }
+
+    .contact .contact-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #1137494a;
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .contact .contact-form form .inputs .input i {
+        position: absolute;
+        right: 10px;
+        top: 46px;
+        color: #777;
+        font-size: 24px;
+    }
+
+    .contact .contact-form form .inputs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .contact .contact-form form .privacy label {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: right;
+    }
+}
