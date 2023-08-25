@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/qaswra/static/css/main.067475a4.css",
+    "main.js": "/qaswra/static/js/main.7a717236.js",
+    "static/js/787.b1188fb4.chunk.js": "/qaswra/static/js/787.b1188fb4.chunk.js",
+    "static/media/L-3.jpg": "/qaswra/static/media/L-3.ce92ba3793595ad79b39.jpg",
+    "static/media/L-4.jpg": "/qaswra/static/media/L-4.499158fc5d43527097a3.jpg",
+    "static/media/L-2.jpg": "/qaswra/static/media/L-2.cb90ce9a6e5a5fce78ec.jpg",
+    "static/media/L-1.jpg": "/qaswra/static/media/L-1.5f53ed7de2d296671f77.jpg",
+    "static/media/service-2.jpg": "/qaswra/static/media/service-2.f020f83fa829587cf52d.jpg",
+    "static/media/service-1.jpg": "/qaswra/static/media/service-1.26d0f3b0c17dd2e417a8.jpg",
+    "static/media/service-3.jpg": "/qaswra/static/media/service-3.efd749e149a8b8466651.jpg",
+    "static/media/vision_2421304.png": "/qaswra/static/media/vision_2421304.84995f6217574203e575.png",
+    "static/media/goal_150275.png": "/qaswra/static/media/goal_150275.3e9a74dea9785f9a62ad.png",
+    "static/media/abouticon.png": "/qaswra/static/media/abouticon.61b82fb42ddf140fc2d9.png",
+    "static/media/diamond_576685.png": "/qaswra/static/media/diamond_576685.6d61d7dead43097d1189.png",
+    "static/media/logo.png": "/qaswra/static/media/logo.8131148adce1a7c07804.png",
+    "index.html": "/qaswra/index.html",
+    "static/media/line.svg": "/qaswra/static/media/line.0c1b6e6ace72050f97bf549477627280.svg",
+    "main.067475a4.css.map": "/qaswra/static/css/main.067475a4.css.map",
+    "main.7a717236.js.map": "/qaswra/static/js/main.7a717236.js.map",
+    "787.b1188fb4.chunk.js.map": "/qaswra/static/js/787.b1188fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.067475a4.css",
+    "static/js/main.7a717236.js"
+  ]
+}
